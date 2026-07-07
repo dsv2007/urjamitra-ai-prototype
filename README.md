@@ -4,6 +4,10 @@ AI-Powered Energy Twin and Machine Health Intelligence Platform for MSMEs.
 
 Tagline: **Turning MSME machines into intelligent energy-saving assets.**
 
+## Live Demo
+
+[Open UrjaMitra AI on Vercel](https://frontend-lakbptegs-dsv2007s-projects.vercel.app)
+
 ## What This Prototype Shows
 
 - AI Energy Twin dashboard for MSME machines.
