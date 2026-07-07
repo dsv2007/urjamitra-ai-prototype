@@ -1,0 +1,34 @@
+{
+  "msmeUnit": {
+    "_id": "unit_demo_001",
+    "unitName": "Demo MSME Unit",
+    "sector": "Multi-sector manufacturing",
+    "tariffPerKwh": 9.5,
+    "machines": [
+      {
+        "_id": "m4",
+        "name": "Packaging Machine",
+        "ratingKw": 12,
+        "baselineKw": 9.7,
+        "latestReading": {
+          "voltage": 230,
+          "current": 35,
+          "powerKw": 8.4,
+          "temperature": 84,
+          "vibration": 8.7,
+          "idleMinutes": 17,
+          "loadPercent": 65,
+          "runtimeHours": 9.1,
+          "outputUnits": 760
+        },
+        "aiInsight": {
+          "failureRisk": 88,
+          "healthScore": 34,
+          "maintenancePriority": "Critical",
+          "reason": "high vibration and rising temperature",
+          "suggestedMaintenanceDate": "within 48 hours"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "urjamitra-ai-prototype",
+  "version": "1.0.0",
+  "private": true,
+  "description": "UrjaMitra AI - AI Energy Twin and Machine Health Intelligence Platform for MSMEs",
+  "scripts": {
+    "install:all": "npm install --prefix frontend && npm install --prefix backend",
+    "dev": "concurrently \"npm run dev --prefix backend\" \"npm run dev --prefix frontend\"",
+    "demo": "npm run dev --prefix frontend"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
